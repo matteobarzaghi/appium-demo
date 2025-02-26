@@ -6,8 +6,8 @@ class CalculatorTest(unittest.TestCase):
     def setUp(self):
         desired_caps = {
             "platformName": "Android",
-            "platformVersion": "YOUR_DEVICE_VERSION",  # e.g., "10"
-            "deviceName": "Android Emulator",            # or the actual device name
+            "platformVersion": "10",  # e.g., "10"
+            "deviceName": "emulator-5554",            # or the actual device name
             "appPackage": "com.android.calculator2",       # change if testing a different app
             "appActivity": ".Calculator",                # change if testing a different app
             "automationName": "UiAutomator2"
